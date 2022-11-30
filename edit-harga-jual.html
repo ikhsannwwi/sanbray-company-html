@@ -39,7 +39,7 @@
     <div class="d-flex align-items-center justify-content-between">
       <a href="index.html" class="logo d-flex align-items-center">
         <img src="assets/img/logo.png" alt="">
-        <span class="d-none d-lg-block">Sanbray Comp</span>
+        <span class="d-none d-lg-block">BrayAdmin</span>
       </a>
       <i class="bi bi-list toggle-sidebar-btn"></i>
     </div><!-- End Logo -->
@@ -136,37 +136,12 @@
 
       <li class="nav-item">
         <a class="nav-link collapsed" data-bs-target="#components-nav" data-bs-toggle="collapse" href="#">
-          <i class="bi bi-menu-button-wide"></i><span>Produk</span><i class="bi bi-chevron-down ms-auto"></i>
+          <i class="bi bi-menu-button-wide"></i><span>Barang</span><i class="bi bi-chevron-down ms-auto"></i>
         </a>
         <ul id="components-nav" class="nav-content collapse " data-bs-parent="#sidebar-nav">
           <li>
-            <a href="produk.html">
-              <i class="bi bi-circle"></i><span>Produk</span>
-            </a>
-          </li>
-          <li>
-            <a href="tempat-distribusi.html">
-              <i class="bi bi-circle"></i><span>Tempat Distribusi</span>
-            </a>
-          </li>
-          <li>
-            <a href="detail-produk.html">
-              <i class="bi bi-circle"></i><span>Detail Produk</span>
-            </a>
-          </li>
-          <li>
-            <a href="harga-jual.html">
-              <i class="bi bi-circle"></i><span>Harga Jual</span>
-            </a>
-          </li>
-          <li>
-            <a href="jenis-produk.html">
-              <i class="bi bi-circle"></i><span>Jenis Produk</span>
-            </a>
-          </li>
-          <li>
-            <a href="nama-produk.html">
-              <i class="bi bi-circle"></i><span>Nama Produk</span>
+            <a href="barang.html">
+              <i class="bi bi-circle"></i><span>Kerupuk Orange</span>
             </a>
           </li>
         </ul>
@@ -184,7 +159,7 @@
       </li><!-- End Profile Page Nav -->
 
       <li class="nav-item">
-        <a class="nav-link collapsed" href="faq.html">
+        <a class="nav-link collapsed" href="pages-faq.html">
           <i class="bi bi-question-circle"></i>
           <span>F.A.Q</span>
         </a>
@@ -197,65 +172,67 @@
         </a>
       </li><!-- End Contact Page Nav -->
 
-      <li class="nav-heading">Admin</li>
-
-      <li class="nav-item">
-        <a class="nav-link collapsed" data-bs-target="#edit-nav" data-bs-toggle="collapse" href="#">
-          <i class="bi bi-menu-button-wide"></i><span>Edit</span><i class="bi bi-chevron-down ms-auto"></i>
-        </a>
-        <ul id="edit-nav" class="nav-content collapse " data-bs-parent="#sidebar-nav">
-          <li>
-            <a href="edit-pendistribusian.html">
-              <i class="bi bi-circle"></i><span>Pendistribusian</span>
-            </a>
-          </li>
-          <li>
-            <a href="edit-debit-kredit.html">
-              <i class="bi bi-circle"></i><span>Pemasukan | Pengeluaran</span>
-            </a>
-          </li>
-          <li>
-            <a href="edit-nama-produk.html">
-              <i class="bi bi-circle"></i><span>Nama Produk</span>
-            </a>
-          </li>
-          <li>
-            <a href="edit-tempat-distribusi.html">
-              <i class="bi bi-circle"></i><span>Tempat Distribusi</span>
-            </a>
-          </li>
-          <li>
-            <a href="edit-detail-produk.html">
-              <i class="bi bi-circle"></i><span>Detail Produks</span>
-            </a>
-          </li>
-          <li>
-            <a href="edit-harga-jual.html">
-              <i class="bi bi-circle"></i><span>Harga Jual</span>
-            </a>
-          </li>
-        </ul>
-      </li><!-- End Components Nav -->
       
-
-
-
 
     </ul>
 
   </aside><!-- End Sidebar-->
 
+  <main id="main" class="main">
 
 
-  
+    <div class="pagetitle">
+        <h1>Edit Data Harga Jual</h1>
+        <nav>
+          <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+            <li class="breadcrumb-item">Barang</li>
+            <li class="breadcrumb-item active">Edit Data Harga Jual</li>
+          </ol>
+        </nav>
+      </div><!-- End Page Title -->
 
 
-  
+
+    <section class="section">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="card">
+                    <div class="card-body">
+                      <h5 class="card-title">Form Harga Jual</h5>
+        
+                      <!-- Multi Columns Form -->
+                      <form class="row g-3">
+                        <div class="col-md-4">
+                          <label for="inputName5" class="form-label">Harga Jual </label>
+                          <input type="number" placeholder="contoh :  5000 " class="form-control" id="inputName5">
+                        </div>
+                        <div class="col-md-8">
+                          <label for="inputName5" class="form-label">Rp( Nominal )</label>
+                          <input type="text" placeholder="contoh : Lima Ribu Rupiah " class="form-control" id="inputName5">
+                        </div>
+                        
+                        
+                        
+                        
+                        
+                        <div class="text-center">
+                          <button type="submit" class="btn btn-primary">Submit</button>
+                          <button type="reset" class="btn btn-secondary">Reset</button>
+                        </div>
+                      </form><!-- End Multi Columns Form -->
+        
+                    </div>
+                  </div>
+            </div>
+        </div>
+    </section>
+  </main> <!-- end main-->
 
   <!-- ======= Footer ======= -->
   <footer id="footer" class="footer">
     <div class="copyright">
-      &copy; Copyright <strong><span>Sanbray Comp</span></strong>. All Rights Reserved
+      &copy; Copyright <strong><span>BrayAdmin</span></strong>. All Rights Reserved
     </div>
     <div class="credits">
       Designed by <a href="#">Mochammad Ikhsan Nawawi</a>
